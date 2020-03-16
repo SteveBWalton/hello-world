@@ -14,8 +14,8 @@ import argparse
 if __name__ == '__main__':
     # Process the command line arguments.
     # This might end the program (--help).
-    oParse = argparse.ArgumentParser(prog='hello_world', description='Display hello world.')
-    oArgs = oParse.parse_args()
+    argParse = argparse.ArgumentParser(prog='hello_world', description='Display hello world.')
+    args = argParse.parse_args()
 
     # Welcome message.
     print('Hello World')
